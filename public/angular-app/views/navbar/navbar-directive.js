@@ -1,4 +1,4 @@
-angular.module('angular-boilerplate').directive('navigation',navigation);
+angular.module('straffon-orthopedics').directive('navigation',navigation);
 
 function navigation() {
   return{
