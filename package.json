@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/petenut/Angular-Boilerplate#readme",
   "dependencies": {
+    "angular-bootstrap-lightbox": "^0.12.0",
+    "angular-bootstrap-npm": "^0.14.3",
     "body-parser": "^1.17.1",
     "express": "^4.15.2"
   }
