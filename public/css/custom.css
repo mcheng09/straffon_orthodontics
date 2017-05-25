@@ -48,3 +48,13 @@
         transform: translate3d(0, 0, 0);
     }
 }
+img#family-photo {
+  height: 300px;
+  border: solid 6px lightgrey;
+}
+
+@media only screen and (max-width: 991px) {
+  img#family-photo {
+    margin-top: 50px;
+  }
+}
