@@ -12,7 +12,7 @@ function HomeCtrl($scope){
       image: '../../images/home/carousel/carousel2.jpg'
     },
     {
-      image: 'http://placehold.it/1280x350'
+      image: 'http://placehold.it/1280x500'
     }
   ];
 }
