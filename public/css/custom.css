@@ -44,10 +44,10 @@ img#straffon-client {
 @media only screen and (max-width: 991px) {
   img#family-photo {
     margin-top: 50px;
-    height: 180px;
+    height: 160px;
   }
   img#straffon-client {
-    height: 180px;
+    height: 160px;
   }
 }
 .flashit:hover{
