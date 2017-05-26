@@ -5,12 +5,12 @@ body, html {
 
 img#family-photo {
   height: 300px;
-  border: solid 6px lightgrey;
+  box-shadow: 6px 6px 3px #888888;
 }
 
 img#straffon-client {
   height: 240px;
-  border: solid 6px white;
+  box-shadow: 6px 6px 3px #888888;
 }
 
 @media only screen and (max-width: 991px) {

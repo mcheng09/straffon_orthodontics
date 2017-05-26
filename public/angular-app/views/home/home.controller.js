@@ -1,7 +1,7 @@
 angular.module('straffon-orthopedics').controller('HomeCtrl', HomeCtrl);
 
 function HomeCtrl($scope){
-  $scope.myInterval = 3000;
+  $scope.myInterval = 4000;
   $scope.noWrapSlides = false;
   $scope.active = 0;
   $scope.slides = [
