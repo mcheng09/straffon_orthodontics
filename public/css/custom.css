@@ -13,3 +13,46 @@ img#straffon-staff {
     margin-top: 50px;
   }
 }
+
+.bubble
+{
+position: relative;
+width: 350px;
+height: 150px;
+padding: 4px;
+background: #B3E5FC;
+-webkit-border-radius: 13px;
+-moz-border-radius: 13px;
+border-radius: 13px;
+border: #B3E5FC solid 6px;
+}
+
+.bubble:after
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 10px 100px 10px 0;
+border-color: transparent #B3E5FC;
+display: block;
+width: 0;
+z-index: 1;
+margin-top: -10px;
+left: -100px;
+top: 63%;
+}
+
+.bubble:before
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 15px 105px 15px 0;
+border-color: transparent #B3E5FC;
+display: block;
+width: 0;
+z-index: 0;
+margin-top: -15px;
+left: -111px;
+top: 63%;
+}
