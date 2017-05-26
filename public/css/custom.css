@@ -8,7 +8,7 @@ img#family-photo {
   border: solid 6px lightgrey;
 }
 
-img#straffon-staff {
+img#straffon-client {
   height: 240px;
   border: solid 6px white;
 }
@@ -16,6 +16,10 @@ img#straffon-staff {
 @media only screen and (max-width: 991px) {
   img#family-photo {
     margin-top: 50px;
+    height: 200px;
+  }
+  img#straffon-client {
+    height: 180px;
   }
 }
 
