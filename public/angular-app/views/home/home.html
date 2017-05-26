@@ -1,19 +1,10 @@
-<!-- Carousel Section -->
-
-<section>
-  <div>
-    <div class="carousel-fade" id="slides_control">
-      <div>
-        <uib-carousel interval="myInterval">
-          <uib-slide ng-repeat="slide in slides" active="active" index="$index">
-            <img ng-src="{{slide.image}}" style="margin:auto; width: 100%;" />
-          </uib-slide>
-        </uib-carousel>
-      </div>
-    </div>
+<div class="hero-image">
+  <div class="hero-text">
+    <br/><br/>
+    <h1>I am Dr. Straffon</h1>
+    <p>And With Great Smiles Comes Great Responsabilities</p>
   </div>
-</section>
-<br/>
+</div>
 
 <!-- Welcome Section -->
 
@@ -94,3 +85,21 @@
     <p style="font-family: futura;">As a top orthodontist in Denver, Dr. Straffon is leading the way with a completely customized approach to orthodontic treatment.</p>
   </div>
 </div>
+<br/><br/>
+
+<!-- Carousel Section -->
+
+<section>
+  <div class="container">
+    <div class="carousel-fade" id="slides_control">
+      <div>
+        <uib-carousel interval="myInterval">
+          <uib-slide ng-repeat="slide in slides" active="active" index="$index">
+            <img ng-src="{{slide.image}}" style="margin:auto; width: 100%;" />
+          </uib-slide>
+        </uib-carousel>
+      </div>
+    </div>
+  </div>
+</section>
+<br/>
